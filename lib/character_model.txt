@@ -1,0 +1,31 @@
+Character Model (class)
+
+-> id (int/String)
+
+-> name (String)
+
+-> slogan (String)
+
+-> isFav (boolean)
+
+-> Vocation (enhanced enum)
+    -> image (String)
+    -> title (String)
+    -> description (String)
+    ->ability (String)
+    -> weapon (String)
+
+
+-> Skills (set of type Skill (Class))
+    -> name (String)
+    -> image (String)
+    -> description (String)
+    -> vocation (Vocation - associated vocation for skill)
+    -> id (int/String?)
+
+-> Stats (mixin)
+    -> health (int)
+    -> attack (int)
+    -> defense (int)
+    -> skill (int)
+    -> points (int)
